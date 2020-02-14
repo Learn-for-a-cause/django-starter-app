@@ -35,4 +35,5 @@ To activate virtualenv on Windows, run the activate script in the command prompt
 ```
 .\myenv\Scripts\activate
 ```
+To deactivate virtualenv just type `deactivate` into your command prompt
    

@@ -9,6 +9,10 @@
   ```
   pip3 --version
   ```
+  * Clone this git repository to your local
+  ```
+  git clone git@github.com:Learn-for-a-cause/django-starter-app.git
+  ```
 ### Install virtual environment
 Install virtualenv
   

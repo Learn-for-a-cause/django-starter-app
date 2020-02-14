@@ -23,7 +23,7 @@ In your Command Prompt navigate to your project:
 ```
 cd your_project
 ```
-Within your project
+Within your project run this command to create virtual environment
 ```
 virtualenv myenv
 ```

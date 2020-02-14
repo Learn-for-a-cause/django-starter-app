@@ -9,26 +9,26 @@
   ```
   pip3 --version
   ```
-  ### 
-  ### Install virtual environment
+### Install virtual environment
 Install virtualenv
   
-  ```
-  pip3 install virtualenv
-  ```
+```
+pip3 install virtualenv
+```
 In your Command Prompt navigate to your project:
-
-```cd your_project```
-
+```
+cd your_project
+```
 Within your project
-
-```virtualenv myenv```
-
+```
+virtualenv myenv
+```
 Activate your virtualenv: on Windows, virtualenv creates a batch file
-
-```\env\Scripts\activate.bat```
-
+```
+\env\Scripts\activate.bat
+```
 To activate virtualenv on Windows, run the activate script in the command prompt
-
-```.\myenv\Scripts\activate```
+```
+.\myenv\Scripts\activate
+```
    

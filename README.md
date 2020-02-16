@@ -55,8 +55,7 @@ Run the django project and in the browser open `http://127.0.0.1:8000/`
 cd myproject
 python manage.py runserver
 ```
-Create an app inside django project
+Create an app inside django project using this command
 ```
 python manage.py startapp blog
 ```
-   

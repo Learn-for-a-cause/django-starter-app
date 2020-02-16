@@ -59,4 +59,4 @@ Create an app inside django project
 ```
 python manage.py startapp blog
 ```
-   
+charan

@@ -86,6 +86,7 @@ python manage.py startapp blog
   ```
   * You can access admin portal in this url `http://127.0.0.1:8000/admin`
   * Create, update, delete model objects in admin portal
+  
 **Views**
   > Views official documentation https://docs.djangoproject.com/en/3.0/topics/http/views/
   

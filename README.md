@@ -29,11 +29,11 @@ virtualenv myenv
 ```
 Activate your virtualenv: on Windows, virtualenv creates a batch file
 ```
-\myenv\Scripts\activate.bat
+myenv/Scripts/activate.bat
 ```
 To activate virtualenv on Windows, run the activate script in the command prompt
 ```
-.\myenv\Scripts\activate
+source ./myenv/Scripts/activate
 ```
 To deactivate virtualenv just type `deactivate` into your command prompt. Install necessary requirements by running this
 ```
@@ -92,3 +92,4 @@ python manage.py startapp blog
   * View present the data to the user by rendering HTML page
   * Add url route for your view under application `urls.py`
   * Also make sure your app url is added to main project `urls.py`
+

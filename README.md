@@ -94,3 +94,6 @@ python manage.py startapp blog
   * Add url route for your view under application `urls.py`
   * Also make sure your app url is added to main project `urls.py`
 
+**Templates**
+  * create a templates folder under the app for example create folder `blog/templates`
+

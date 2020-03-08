@@ -86,7 +86,8 @@ python manage.py startapp blog
   ```
   * You can access admin portal in this url `http://127.0.0.1:8000/admin`
   * Create, update, delete model objects in admin portal
-  
+
+### Session 2 - Views & Templates
 **Views**
   > Views official documentation https://docs.djangoproject.com/en/3.0/topics/http/views/
   
@@ -96,4 +97,19 @@ python manage.py startapp blog
 
 **Templates**
   * create a templates folder under the app for example create folder `blog/templates`
+  * render the template by giving path to the template in the view `render(request, "blog/templates")`
+  * Use `{% load static %}` in base html to load the static asserts in all the templates that inherit the base template 
+  * Use template inheritance of django by adding extends tag in child template `{% extents "template/path %}`
+  * Added the block of HTML content in the child template by enclosing the HTML tags with `{% block block_name %} <html tags here\> {% endblock %}`, use the same tags in base HTML page as well
+  * use `{{ }}` for rendering django object
+  * use `{% url url_name values %}` for getting the href link to the url
+  * Check condition in template with if block `{% if condition %}<html tags here\>{% endif %}`
+  * Iterating is done by for loop in templates `{% for p in posts %} <html tags here \> {% endfor %}`
 
+### Session 3 - Todo app & Forms
+  **Todo app requirements:**
+    * List all the todo events in the home page
+    * User should be able to add a new Todo task
+    * User should be able to update the task description
+    * User should be able to marks any task as resolved
+    * User should be able to delete any task
